@@ -5,6 +5,10 @@
         font-size: 1.3rem;
     }
 
+    .text-hover-#{$key}:hover{
+        color: $val;
+    }
+
     .bg-#{$key}{
         background-color: $val;
         color: white;
@@ -19,7 +23,7 @@
        }
 
        .bg-#{$key}-light-#{$i}{
-        color: mix(white, $val, $i * 10);
+        background-color: mix(white, $val, $i * 10);
        }
     }
 
@@ -30,7 +34,10 @@
         }
  
         .bg-#{$key}-dark-#{$i}{
-         color: mix(black, $val, $i * 10);
+        color: white;
+         background-color: mix(black, $val, $i * 10);
+         padding: 5px 10px;
+         font-size: 1.3rem;
         }
      }
 }

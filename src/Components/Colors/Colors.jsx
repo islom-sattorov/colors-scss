@@ -36,6 +36,19 @@ const Colors = () => {
                 <span className="text-black">black</span>
                 <span className="text-white">white</span>
             </div>
+            <br></br>
+            <h2 className={style.title}>Variations of colors</h2>
+            <div className={style.bg_colors}>
+                <span className="bg-primary-dark-9">Dark 9</span>
+                <span className="bg-primary-dark-8">Dark 8</span>
+                <span className="bg-primary-dark-7">Dark 7</span>
+                <span className="bg-primary-dark-6">Dark 6</span>
+                <span className="bg-primary-dark-5">Dark 5</span>
+                <span className="bg-primary-dark-4">Dark 4</span>
+                <span className="bg-primary-dark-3">Dark 3</span>
+                <span className="bg-primary-dark-2">Dark 2</span>
+                <span className="bg-primary-dark-1">Dark 1</span>
+            </div>
         </>
     )
 }
