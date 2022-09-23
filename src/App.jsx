@@ -8,6 +8,7 @@ function App() {
       <Colors />
       <Buttons />
       <Card />
+      <h1 className='responsive-test'>Responsive Test</h1>
     </>
   )
 }
