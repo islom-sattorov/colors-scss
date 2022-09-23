@@ -1,7 +1,12 @@
-function App() {
+import Card from './Components/Card/Card'
+import Colors from './Components/Colors/Colors'
 
+function App() {
   return (
-    <h1>Test</h1>
+    <>
+      <Colors />
+      <Card />
+    </>
   )
 }
 
