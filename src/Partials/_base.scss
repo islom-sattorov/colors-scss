@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+h1{
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    border: $base-border-thickness solid red;
+}
+
+.error{
+    color: $error;
+    border: 1px solid $error;
+}
+
+.notification{
+    color: $secondary;
+    border: 1px solid $secondary;
+}
